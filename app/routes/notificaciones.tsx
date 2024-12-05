@@ -3,7 +3,7 @@ import Layout from "~/components/Layout";
 
 const DataTable = () => {
     const [search, setSearch] = useState("");
-    const [rowsPerPage, setRowsPerPage] = useState(5);
+    const [rowsPerPage, setRowsPerPage] = useState(10);
     const [currentPage, setCurrentPage] = useState(1);
 
     const data = [
@@ -173,11 +173,11 @@ const DataTable = () => {
                             <tbody>
                                 {displayedData.map((row, index) => (
                                     <tr key={index}>
-                                        <td>{row.radicado}</td>
+                                        <td className="has-text-grey-dark has-text-weight-bold">{row.radicado}</td>
                                         <td className="has-text-dark has-text-weight-bold">{row.peticionario}</td>
-                                        <td>{row.fecha_publicacion}</td>
-                                        <td>{row.fecha_retiro}</td>
-                                        <td>{row.descripcion}</td>
+                                        <td className="has-text-grey-dark">{row.fecha_publicacion}</td>
+                                        <td className="has-text-grey-dark">{row.fecha_retiro}</td>
+                                        <td className="has-text-grey-dark has-text-weight-bold">{row.descripcion}</td>
                                         <td>
                                             <a href={row.archivo} target="_blank" className="button is-light is-small" rel="noopener noreferrer">
                                                 Ver Archivo

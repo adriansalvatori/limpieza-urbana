@@ -45,7 +45,7 @@ const PQR = () => {
             </section>
             <section className="section">
                 <div className="container is-max-desktop">
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} className="form box is-shadowless is-outlined">
                         <div className="columns is-multiline">
                             {/* Nombres */}
                             <div className="column is-one-quarter">
@@ -238,7 +238,7 @@ const PQR = () => {
                     </form>
                 </div>
             </section>
-            <section className="section has-background-grey">
+            <section className="section has-background-light">
                 <div className="container is-max-desktop">
                     <p>En cumplimiento de lo previsto por la Ley 1581 de 2012 (Ley de protección de datos personales) y sus decretos reglamentarios, con el ingreso al siguiente formulario autorizo expresamente a LIMPIEZA URBANA SA ESP, y a quien actúe en su nombre, para tratar mis datos personales, con la finalidad de Gestionar las peticiones, quejas, reclamos, denuncias, sugerencias presentados a la entidad, gestionar iniciativas de participación ciudadana y ofrecer nuevos productos y servicios e interactuar por medios electrónicos.</p>
 

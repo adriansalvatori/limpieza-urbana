@@ -63,27 +63,6 @@ export default function Home() {
             <img src="/app/assets/images/cards.svg" alt="" />
           </div>
         </section>
-
-        <section className="section has-background-grey">
-          <div className="container has-text-centered">
-            <img className="mt-6" src="/app/assets/images/juntos.svg" alt="Juntos por un presente sostenible" />
-            <div className="columns has-text-left mt-6 has-text-dark">
-              <div className="column is-3 is-offset-3">
-                Desde 2005, brindamos el Servicio Público de Aseo en Bucaramanga, Floridablanca, Girón y Piedecuesta. Nos encargamos de la recolección, transporte de residuos sólidos, barrido y limpieza de vías y espacios públicos, en colaboración con otras empresas de aseo, y gestionamos la disposición final de residuos en el lugar autorizado.
-              </div>
-              <div className="column is-3">
-                Operamos bajo la Ley 142, que regula los servicios públicos domiciliarios, y el Decreto 2981 de 2013, que define cómo debe prestarse el servicio de aseo. Además, cumplimos con la Resolución CRA 720 de 2015, que establece la metodología para calcular las tarifas en municipios con más de 5,000 suscriptores en áreas urbanas.
-              </div>
-            </div>
-
-            <div className="buttons is-centered mt-6">
-              <div className="button is-dark has-text-weight-bold is-inverted">Tarifas</div>
-              <div className="button is-dark has-text-weight-bold is-inverted">Comunicados</div>
-              <div className="button is-dark has-text-weight-bold is-inverted">Galería</div>
-              <div className="button is-dark has-text-weight-bold is-inverted">Pagos</div>
-            </div>
-          </div>
-        </section>
       </Layout>
 
     </>

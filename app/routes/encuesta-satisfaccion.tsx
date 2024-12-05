@@ -18,9 +18,9 @@ const Poll = () => {
                     De conformidad con lo establecido por la Ley 1581 de 2012 y las demás normas que la modifiquen, reglamenten y/o adhieran, autorizo a LIMPIEZA URBANA SA E.S.P a realizar el tratamiento de los datos personales suministrados en el presente formato, conforme a las siguientes finalidades: a) realizar la percepción de la satisfacción en la prestación del servicio b) Transmitir y/o Transferir los datos personales a otras entidades con las que la ORGANIZACIÓN concierte directa o indirectamente la prestación de un servicio relativo a las funciones legítimas de la misma. LIMPIEZA URBANA SA E.S.P le informa que podrá ejercer sus derechos de acceso, rectificación, corrección, actualización, aclaración y supresión, mediante comunicación a la dirección datos.personales@limpiezaurbana.com.co . Lo invitamos a que consulte nuestra Política de Tratamiento de Información y Protección de Datos Personales en www.limpiezaurbana.com.co.
                 </div>
             </div>
-            <div className="section has-background-grey">
+            <div className="section has-background-light">
                 <div className="container is-max-desktop">
-                    <form className='form'>
+                    <form className='form box is-shadowless is-outlined'>
                         <div className="columns is-multiline">
                             <div className="column is-one-quarter">
                                 <div className="field">
