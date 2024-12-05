@@ -14,7 +14,7 @@ export default function Home() {
       <Layout>
         <section className="hero has-decoration has-substract-light is-fullheight is-dark">
           <div className="hero-body">
-            <div className="container is-max-desktop has-text-centered">
+            <div className="container is-max-desktop">
               <div className="columns level">
                 <div className="column is-half">
                   <h1 className="title is-1">Servicios <br /><span className="has-text-weight-bold">especiales</span></h1>

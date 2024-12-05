@@ -7,9 +7,11 @@
 $primary: #99E7A1;
 $dark: #127360;
 $success: #99C355;
+$info: #dae2de;
 $light: #F3F7F8;
 $danger: #CA0049;
 $warning: #E2B037;
+$link: #2B663C;
 $grey: #E3ECEE;
 $body-family: 'Plus Jakarta Sans',sans-serif;
 $title-family: 'Plus Jakarta Sans',sans-serif;
@@ -26,9 +28,13 @@ $control-border-width: 2px;
  @forward "../node_modules/bulma/sass/" with (
   $primary: $primary,
   $dark: $dark,
+  $success: $success,
+  $info: $info,
   $light: $light,
+  $warning: $warning,
   $danger: $danger,
   $grey: $grey,
+  $link: $link,
   $body-family: $body-family,
   $title-family: $title-family,
   $title-weight: $title-weight,
@@ -64,7 +70,7 @@ body {
 }
 
 .is-logo-outline {
-  position: absolute;
+  position: absolute; 
   bottom: -6rem;
   right: 0;
 }
@@ -95,6 +101,17 @@ body {
   border-radius: var(--radius);
 }
 
+label.radio {
+  margin: 5px;
+  background: var(--light);
+  padding: 5px 10px;
+  border-radius: 4px;
+
+  input {
+    margin-right: 5px;
+  }
+}
+
 .hero.has-decoration {
   position: relative;
 
@@ -106,12 +123,19 @@ body {
     right: 0;
     bottom: 0;
     background-image: url('./assets/images/decoration.svg');
-    background-size: contain;
+    background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
     z-index: 9;
     pointer-events: none;
   }
+
+  &.is-fullheight {
+    &::before {
+      background-size: contain;
+    }
+  }
+
 }
 
 .has-box-decorations {

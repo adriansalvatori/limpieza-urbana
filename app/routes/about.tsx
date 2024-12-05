@@ -15,10 +15,9 @@ export default function About() {
         <section className="hero has-decoration has-substract-light is-medium is-white">
           <div className="hero-body">
             <div className="container is-max-desktop">
-              <div className="container is-max-desktop has-text-centered">
-                <h1 className="title is-1">Servicios <br /><span className="has-text-weight-bold">especiales</span></h1>
-                <h2 className="subtitle is-4">Intervención técnica<br></br> de poda de árboles</h2>
-                <a href="#" className="button is-warning is-outlined">Costos a Convenir</a>
+              <div className="container is-max-desktop has-text-centered pt-6">
+                <h1 className="title is-1">Servicios <span className="has-text-weight-bold">especiales</span></h1>
+                <h2 className="subtitle is-4">Intervención técnicade poda de árboles</h2>
               </div>
             </div>
           </div>
