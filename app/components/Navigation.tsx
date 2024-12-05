@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import MegaMenu from './MegaMenu';
 
 const Navigation = () => {
     const [isMegaMenuOpen, setMegaMenuOpen] = useState(false);
 
-    const toggleMegaMenu = (e:any) => {
+    const toggleMegaMenu = (e: any) => {
         e.preventDefault();
         setMegaMenuOpen(!isMegaMenuOpen);
     };
@@ -45,11 +46,7 @@ const Navigation = () => {
                 </div>
             </nav>
             {isMegaMenuOpen && (
-                <div className="mega-menu">
-                    <div className="box">
-                        ESTA VIVO
-                    </div>
-                </div>
+                <MegaMenu/>
             )}
         </div>
     );
