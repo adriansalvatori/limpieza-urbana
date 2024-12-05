@@ -86,7 +86,151 @@ const DataTable = () => {
             "fecha_retiro": "2024-07-09",
             "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
             "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
-        }
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-07-16",
+            "fecha_retiro": "2024-07-23",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-07-23",
+            "fecha_retiro": "2024-07-30",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-07-30",
+            "fecha_retiro": "2024-08-06",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-08-06",
+            "fecha_retiro": "2024-08-13",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-08-13",
+            "fecha_retiro": "2024-08-20",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-08-20",
+            "fecha_retiro": "2024-08-27",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-08-27",
+            "fecha_retiro": "2024-09-03",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-09-03",
+            "fecha_retiro": "2024-09-10",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-09-10",
+            "fecha_retiro": "2024-09-17",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-09-17",
+            "fecha_retiro": "2024-09-24",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-09-24",
+            "fecha_retiro": "2024-10-01",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-10-01",
+            "fecha_retiro": "2024-10-08",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-10-08",
+            "fecha_retiro": "2024-10-15",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-10-15",
+            "fecha_retiro": "2024-10-22",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-10-22",
+            "fecha_retiro": "2024-10-29",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-10-29",
+            "fecha_retiro": "2024-11-05",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-11-05",
+            "fecha_retiro": "2024-11-12",
+            "descripcion": "CITACION PARA NOTIFICACION PERSONAL 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/35.pdf"
+        },
+        {
+            "radicado": "54406",
+            "peticionario": "DORA AMPARO MOGOLLON PEREZ",
+            "fecha_publicacion": "2024-11-12",
+            "fecha_retiro": "2024-11-19",
+            "descripcion": "RESPUESTA A SOLICITUD – RADICADO LUSA 54406",
+            "archivo": "https://limpiezaurbana.com.co/modules/upload/31.pdf"
+        },
     ]
 
     const filteredData = data.filter(
@@ -147,11 +291,11 @@ const DataTable = () => {
                             <div className="column is-half">
                                 <div>
                                     <label>
-                                        Buscar:{" "}
                                         <input
                                             type="search"
                                             className="input is-small"
                                             value={search}
+                                            placeholder="Buscar"
                                             onChange={(e) => setSearch(e.target.value)}
                                         />
                                     </label>
