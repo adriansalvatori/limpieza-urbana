@@ -171,21 +171,35 @@ const MegaMenu = () => {
 
     // Recursive function to render the menu
     const renderMenu = (menuItems: any) => {
-        return menuItems.map((item:any, index:number) => (
-            <div key={index}>
+        return menuItems.map((item: any, index: number) => (
+            <div className="column is-3 has-text-weight-bold" key={index}>
                 {/* If it's a link, render the link */}
                 {item.link ? (
                     <a href={item.link} className="menu-item">
-                        {item.label}
+                        <span className="level">
+                            {item.label} 
+                        </span>
                     </a>
                 ) : (
                     <>
                         {/* If there's a submenu, handle it */}
                         <div
-                            className="menu-item cursor-pointer"
+                            className="menu-item has-text-link has-cursor-pointer"
                             onClick={() => handleSubmenuClick(item, item.label)}
                         >
-                            {item.label + '>'} 
+                            <span className="level-left">
+                                {item.label} <span className="icon ml-2"><img src="/app/assets/images/CaretCircleRight.svg" alt="" /></span>
+                            </span>
+                            <span className="is-size-7 has-text-weight-light">
+                                {item.sub_menu && item.sub_menu.length > 0
+                                    ? item.sub_menu
+                                        .slice(0, 5)
+                                        .map((subItem: any) => subItem.label)
+                                        .join(', ')
+                                        .slice(0, 30) +
+                                    (item.sub_menu.length > 3 ? '...' : '...')
+                                    : '...'}
+                            </span>
                         </div>
                         {item.sub_menu && currentMenu === item.sub_menu && (
                             <div className="submenu">
@@ -213,7 +227,7 @@ const MegaMenu = () => {
     };
 
     // Helper function to find a menu by its label
-    const findMenuByLabel:any = (menu: any, label: string) => {
+    const findMenuByLabel: any = (menu: any, label: string) => {
         for (const item of menu) {
             if (item.label === label) {
                 return item.sub_menu || menu; // Return the submenu or the original menu
@@ -227,22 +241,24 @@ const MegaMenu = () => {
     };
 
     return (
-        <div className="box is-shadowless is-outlined menu-container">
+        <div className="box is-shadowless is-outlined is-rounded mt-4 menu-container">
             {/* Render Breadcrumbs */}
             <div className="breadcrumb">
-                <button onClick={() => handleBreadcrumbClick(0)}>Home</button>
-                {breadcrumb.map((label, index) => (
-                    <React.Fragment key={index}>
-                        <span> &gt; </span>
-                        <button onClick={() => handleBreadcrumbClick(index)}>
-                            {label}
-                        </button>
-                    </React.Fragment>
-                ))}
+                <div className="tag has-text-weight-bold">
+                    <button className='mr-2' onClick={() => handleBreadcrumbClick(-1)}>Nuestra Empresa</button>
+                    {breadcrumb.map((label, index) => (
+                        <React.Fragment key={index}>
+                            <span className="mr-2 has-text-weight-light"> {" > "} </span>
+                            <button className="mr-2" onClick={() => handleBreadcrumbClick(index)}>
+                                {label}
+                            </button>
+                        </React.Fragment>
+                    ))}
+                </div>
             </div>
 
             {/* Render the current menu */}
-            <div className="current-menu">{renderMenu(currentMenu)}</div>
+            <div className="current-menu columns is-multiline">{renderMenu(currentMenu)}</div>
         </div>
     );
 };
