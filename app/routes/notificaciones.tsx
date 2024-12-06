@@ -259,7 +259,6 @@ const DataTable = () => {
                     <div className="container is-max-desktop">
                         <div className="container is-max-desktop has-text-centered pt-6">
                             <h1 className="title is-1"><span className="has-text-weight-bold">Notificaciones</span></h1>
-                            <h2 className="subtitle is-4">Intervención técnica de poda de árboles</h2>
                         </div>
                     </div>
                 </div>
